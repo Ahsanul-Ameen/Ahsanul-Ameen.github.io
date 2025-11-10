@@ -1,16 +1,703 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <meta charset='UTF-8'>
-  <title>Ahsanul Ameen | Portfolio</title>
-  <style>
-    body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
-    h1 { color: #0366d6; }
-  </style>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Ahsanul Ameen Sabit</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/web-logo-A.png" rel="icon">
+  <link href="assets/img/web-logo-A.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
-<body>
-  <h1>Hi, I'm Ahsanul Ameen 👋</h1>
-  <p>Backend Engineer @ IQVIA | Focused on scalable systems</p>
-  <p>Check out my projects on <a href='https://github.com/Ahsanul-Ameen'>GitHub</a>.</p>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="assets/img/ahsan.png" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <h1 class="sitename">Ahsanul Ameen Sabit</h1>
+    </a>
+
+    <p style="text-align: center; font-size: 14px;">
+      Software Development Engineer 3
+      <br>IQVIA
+    </p>
+
+    <div class="social-links text-center">
+      <a href="mailto:ahsanulsabit7@gmail.com?subject=Inquiry%20from%20Website&body=Hello%20Ahsanul%2C%0A%0AI%20would%20like%20to%20connect%20with%20you%20regarding..." class="email" title="Email: ahsanulsabit7@gmail.com">
+        <i class="bi bi-envelope"></i>
+      </a>
+      
+      <a href="https://github.com/Ahsanul-Ameen" class="github" title="GitHub: Ahsanul Ameen Sabit">
+        <i class="bi bi-github"></i>
+      </a>
+      
+      <!-- <a href="https://scholar.google.com/citations?user=iDGVVQkAAAAJ&hl=en" class="google-scholar" title="Google Scholar: Ahsanul Ameen Sabit">
+        <i class="bi bi-mortarboard"></i>
+      </a> -->
+      
+      <a href="https://www.linkedin.com/in/ahsanulameensabit/" class="linkedin" title="LinkedIn: Ahsanul Ameen Sabit">
+        <i class="bi bi-linkedin"></i>
+      </a>
+    </div>
+    
+    
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <!-- <li><a href="#home" class="active"><i class="bi bi-house navicon"></i>Home</a></li> -->
+        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#recent-news"><i class="bi bi-newspaper navicon"></i> Recent News</a></li>
+        <li><a href="#work"><i class="bi bi-briefcase navicon"></i>Work</a></li>
+        <li><a href="#academics"><i class="bi bi-briefcase navicon"></i>Academics</a></li>
+        <li><a href="#research"><i class="bi bi-journal-check navicon"></i>Research</a></li>
+        <li><a href="#projects"><i class="bi bi-kanban navicon"></i>Projects</a></li>
+        <li><a href="#achievements"><i class="bi bi-file-earmark-text navicon"></i>Achievements</a></li>
+        <li><a href="#certifications"><i class="bi bi-file-earmark-text navicon"></i>Certifications</a></li>
+        <li>
+          <a href="files/Ahsanul_CV.pdf" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-file-earmark-pdf navicon"></i>CV
+          </a>
+        </li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    
+
+    <!-- About Section -->
+    <section id="about" class="about section" style="padding-left:20px !important; padding-right:20px; padding-top: 100px; padding-bottom: 0px;">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up" >
+        <h2>About</h2>
+      
+        <p class="py-3" style="text-align: justify;">
+          Hi, I’m Ahsanul Ameen Sabit — a software engineer with a strong focus on front-end web development. Currently, I work as a software development engineer 
+          at <a href="https://www.iqvia.com/">IQVIA</a>, a leading global provider of information, services and technology for the healthcare industry. At IQVIA, 
+          I develop responsive and intuitive web applications using Angular and Typescript that support better user experience.
+          <br><br>
+          My interests go beyond software engineering — I’m deeply passionate about natural language processing (NLP). I'm particularly interested in fine-tuning 
+          large language models and find meaningful, ethical applications for them in domains like medicine and law.  I strongly believe in building responsible 
+          AI systems, with fairness, transparency, and human values at their core. Alongside my full-time role, I regularly contribute to research projects that 
+          align with these interests. I’ve collaborated multiple times with <a href="https://engineering.nd.edu/faculty/joanna-cecilia-da-silva-santos/">Dr. Joanna C. S. Santos</a> 
+          from the <a href="https://www.nd.edu/">University of Notre Dame</a>. I have graduated from Bachelor of Science in Computer Science and Engineering from 
+          the Bangladesh University of Engineering and Technology (<a href="https://www.buet.ac.bd/web/#/">BUET</a>) in May, 2023, and during my final year, 
+          I completed my thesis under the supervision of <a href="https://cse.buet.ac.bd/faculty/faculty_detail/msrahman">Dr. M. Sohel Rahman</a>. 
+          <br><br>
+          Outside of work and research, I'm a person who strictly maintains well-organized environments — it keeps me grounded and focused. I love reading, 
+          and I enjoy writing short stories as a creative outlet. I also draw in my free time and find peace in every brushstroke. If you’re curious, feel free 
+          to explore some of my artwork on the <a href="hobbies.html">Arts</a> page.
+          <!-- , and my short stories are available on the Stories page. -->
+        </p>
+         
+      </div>
+
+    </section>
+    <!-- /About Section -->
+
+
+    <!-- Recent News -->
+    <section id="recent-news" class="resume section" style="padding-left: 20px; padding-right: 20px;">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Recent News</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" style="margin-top: -40px; ">
+
+        <div class="row">
+
+          <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+            <div class="resume-item" style="padding-bottom: 5px !important;">
+              <p>
+                <a href=""><b>June, 2025: IQVIA Impact Program – Silver Award (2025)</b></a>
+                
+                <p style="font-size: 14px; margin-top: -10px;">
+                  Recognizing the immense contribution to designing and developing the Agent Studio platform and NBA agent-based offerings.
+                </p>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- Recent News Section-->
+
+    <!-- Work Section -->
+    <section id="work" class="resume section" style="padding-left: 20px; padding-right: 20px; padding-bottom: 30px;">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Work</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" style="margin-top: -40px; ">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="resume-item pb-0">
+              <h4>Software Development Engineer 3</h4>
+              <h5>April 2025 - Present</h5>
+              <p><em><a href="https://www.iqvia.com/">IQVIA</a>, Dhaka, Bangladesh </em></p>
+              <ul>
+                <li>Architected Planner Algorithm v1.0 for dynamic audience segmentation; initiated Planner Agent 2.0, <b>achieving a 50% reduction</b> in configuration complexity. Developed an MCP server with enriched tools enabling form-based configuration in Algorithm Studio, significantly improving guided agent configuration workflows.</li>
+                <li>Developed API endpoints for the Judge Agent metric-evaluation engine, transforming raw data into actionable insights for performance tracking.</li>
+                <li>Optimized ETL pipelines and integrated data-service APIs for Snowflake datamarts, enhancing agent response efficiency, security, and scalability.</li>
+              </ul>              
+            </div><!-- Edn Resume Item -->
+            <div class="resume-item pb-0">
+              <h4>Software Development Engineer 2</h4>
+              <h5>Jan 2024 -- Mar 2025</h5>
+              <p><em><a href="https://www.iqvia.com/">IQVIA</a>, Dhaka, Bangladesh </em></p>
+              <ul>
+                <li>Developed the multi-agentic UI configuration backend from scratch as part of AI Assistant integration, <b>reducing configuration complexity by 80%.</b></li>
+                <li>Co-led an agile backend team; designed, implemented, and reviewed layered architecture features for the Next Best Action App using .NET Core and EF Core.</li>
+                <li><b>Improved API performance by 60%</b> via advanced caching mechanisms and authored SQL scripts for multi-tenancy testing management.</li>
+                <li>Built a proactive messaging bot service as a proof-of-concept, integrating MS Teams Bot with existing applications using the Bot Framework SDK.</li>
+              </ul>              
+            </div><!-- Edn Resume Item -->
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="resume-item">
+              <h4>Software Developer</h4>
+              <h5>September 2022 -- December 2023</h5>
+              <p><em><a href="https://www.iqvia.com/">IQVIA</a>, Dhaka, Bangladesh </em></p>
+              <ul>
+                <li>Implemented translation functionality for the Next Best Action (NBA) platform, <b>increasing regional offerings by 50% in Japan and other Asian markets.</b></li>
+                <li>Managed daily builds, patches, and release processes using Amazon EKS and GitLab Pipelines, ensuring robust and reproducible deployments.</li>
+                <li>Mentored three junior developers during onboarding, promoting best practices and accelerating team productivity.</li>
+              </ul>
+            </div>
+            <!-- Edn Resume Item -->
+             <div class="resume-item pb-0">
+              <h4>Software Engineer</h4>
+              <h5>June 2022 -- August 2022</h5>
+              <p><em><a href="https://research.samsung.com/srbd">Samsung R&#38D Institute Bangladesh</a>, Dhaka, Bangladesh </em></p>
+              <ul>
+                <li>Conducted R&#38D on Generative Adversarial Networks (GANs), contributing to experimental ML research initiatives.</li>
+                <li>Collaborated with the web engine team; gained hands-on exposure to Chromium's high-level architecture, rendering pipeline, and painting mechanism.</li>
+                <li>Prepared detailed sequence diagrams for complex method stacks, elucidating system behavior and aiding in design decisions.</li>
+                <li>Performed code reviews, issue resolution, and unit testing to ensure robust implementation of research prototypes.</li>
+              </ul>              
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- Work Section -->
+
+
+    <!-- Academics section -->
+    <section id="academics" class="resume section" style="padding-left: 20px; padding-right: 20px;">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Academics</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" style="margin-top: -40px; ">
+
+        <div class="row">
+
+          <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+            <div class="resume-item">
+              <h4>BSc in Computer Science & Engineering</h4>
+              <h5>February 2017 - April 2022</h5>
+              <p><em><a href="https://www.buet.ac.bd/web/#/">Bangladesh University of Engineering and Technology (BUET)</a></em></p>
+              <ul>
+                <li>Graduated with a CGPA of 3.53/4.00.</li>
+                <li>Focused coursework on Algorithm Engineering, Machine Learning, Artificial Intelligence, Computer Security, Software Engineering, Compiler, Basic Graph Theory, High Performance Database System.</li>
+                <li>Participated actively in university events, contributing leadership and creative skills.</li>
+                <li>Developed strong problem-solving and project management abilities through academic projects and competitions.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- Academics Section-->
+
+
+
+    <!-- Research Section -->
+    <section id="research" class="resume section" style="padding-left: 20px; padding-right: 20px;">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Research</h2>
+        <p style="text-align: justify;">
+          ?? 
+        </p>
+      </div><!-- End Section Title -->
+
+      <div class="container" style="margin-top: -40px; ">
+
+        <div class="row">
+
+          <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Research Recognition</h3>
+            <div class="resume-item pb-0">
+              <p>
+                <b><a href="https://site.ieee.org/bangladesh-cs/ss2021/">10th Best Paper Award</a> – IEEE CS BDC Summer Symposium (2021)</b>
+                <p style="font-size: 14px; margin-top: -10px; text-align: justify;">
+                  Title: Rapid Secret Sharing using st-Numbering Scheme 
+                  <a href="https://site.ieee.org/bangladesh-cs/files/2021/06/Final_Schedule-of-IEEEBDC_Summer_Symposium_4-5_Jun_2021_with_Session_Chair.pdf">PID-74</a> Track 4: 5G Internet and Security.
+                </p>
+              </p>
+            </div>
+
+            <h3 class="resume-title">Undergraduate Thesis</h3>
+            <div class="resume-item pb-0">
+              <p>
+                <b>A study on graph based secret-sharing schemes</b>
+                <p style="font-size: 14px; margin-top: -10px; text-align: justify;">
+                  Investigated graph-based secret-sharing and key agreement protocols optimizing share sizes and security against eavesdroppers.
+                  <br>
+                  <b>Supervisor:</b> 
+                  <a href="https://saidurrahman.buet.ac.bd/" style="color: inherit; text-decoration: none;">
+                    <b>Dr. Md. Saidur Rahman</b>
+                  </a>
+                </p>
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- /Research Section -->
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="resume section" style="padding-left: 20px; padding-right: 20px;">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Projects</h2>
+        <p>??</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" style="margin-top: -40px; ">
+
+        <div class="row">
+
+          <div class="col-lg-10 mt-5 mt-md-4 mt-lg-3 academic-projects" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Academic &#38 Personal Projects</h3>
+
+            <div class="resume-item" style="padding-bottom: 5px;">
+              <p>
+                <b><a href="https://drive.google.com/drive/folders/1aafNUEvvLvBIcMGIne4JLytwqk2hnhLC?usp=sharing">Sign Language Classification</a>, </b>2022
+                <p style="font-size: 14px; margin-top: -10px; text-align: justify;">
+                  An ML project comparing multiple datasets and achieving higher accuracy through a combined CNN model.  
+                  <br>
+                  <b>Datasets:</b> <a href="https://www.kaggle.com/datamunge/sign-language-mnist">Sign Language MNIST</a>, <a href="https://www.kaggle.com/grassknoted/asl-alphabet">ASL Alphabet</a>, <a href="https://www.kaggle.com/ardamavi/sign-language-digits-dataset">Digits</a>
+                  <br>
+                  <b>Languages &#38 Frameworks:</b> Python (TensorFlow)
+                </p>
+              </p>
+            </div>
+            <div class="resume-item" style="padding-bottom: 5px;">
+              <p>
+                <b><a href="https://iclp-sms.netlify.app/">Interactive Code Learning Platform</a>, </b> 2021
+                <p style="font-size: 14px; margin-top: -10px; text-align: justify;">
+                  Developed a coding skill evaluator web application with a RESTful API backend using Node.js, Express, and Passport. Utilized PostgreSQL as the database and implemented the frontend with Vue.js, Vuex, and BootstrapVue.
+                  <br>
+                  <b>Demo:</b> <a href="https://youtu.be/tkpQRuiJCgg?si=HcSS4k67lgedEZjQ">Interactive Code Learning Platform</a>
+                </p>
+              </p>
+            </div>
+            <div class="resume-item" style="padding-bottom: 5px;">
+              <p>
+                <b><a href="https://github.com/Ahsanul-Ameen/CSE_406_Lab_Project">ICMP Ping Spoofing + ICMP Redirect Attack</a>, </b> 2021
+                <p style="font-size: 14px; margin-top: -10px; text-align: justify;">
+                  Built an attack tool in C and Python, enabling spoofing of ICMP echo requests with custom source IPs, and created a redirect attack tool to advertise vulnerable gateways to victims.
+                </p>
+              </p>
+            </div>
+            <div class="resume-item" style="padding-bottom: 5px;">
+              <p>
+                <b><a href="https://github.com/Ahsanul-Ameen/Line_of_Action">Line of Action</a>,</b> 2020
+                <p style="font-size: 14px; margin-top: -10px; text-align: justify;">
+                  Developed a Java-based AI bot with a JavaFX interface for the game “Line of Action,” utilizing adversarial search algorithms.
+                </p>
+              </p>
+            </div>
+            <div class="resume-item" style="padding-bottom: 5px;">
+              <p>
+                <b><a href="https://github.com/Ahsanul-Ameen/nand2tetris">Nand to Tetris(Part 1 &#38 2)</a>,</b> 2020
+                <p style="font-size: 14px; margin-top: -10px; text-align: justify;">
+                  There are 12 projects originated from <a \href="https://www.nand2tetris.org/">crash course</a> on how computers actually operate. In the first part, we've built the hardware hierarchy of a simple computer named <i>“Hack”</i> through six sequential projects. 
+                  <br>
+                  In the second part, we developed a two-tier compiler and a simple OS for a high-level Java-like object-oriented language named <i>“Jack”,</i> which doesn't support inheritance. Outputs were tested via Coursera autograder. 
+                  <br>
+                  <b>Technologies:</b> HDL, C, C++, Java
+                </p>
+              </p>
+            </div>
+            <div class="resume-item" style="padding-bottom: 5px;">
+              <p>
+                <b><a href="https://github.com/Ahsanul-Ameen/Almost-C---Compiler">Almost C Compiler</a>,</b> 2019
+                <p style="font-size: 14px; margin-top: -10px; text-align: justify;">
+                  Created a compiler for a subset of the C language family, which is compatible with x86 microcontrollers. Can be emulated via an 8086 emulator. 
+                  <br>
+                  <b>Technologies:</b> C++, flex/lex, yacc/bison
+                </p>
+              </p>
+            </div>
+            <div class="resume-item" style="padding-bottom: 5px;">
+              <p>
+                <b><a href="https://ahsanul-ameen.github.io/CSE-316-Project-Report/">Smart Stick</a>,</b> 2019
+                <p style="font-size: 14px; margin-top: -10px; text-align: justify;">
+                  Designed a walking cane for visually impaired users using Bluetooth, sonar sensors, and an ATmega32 microprocessor. The cane detects obstacles and can be located via an Android app. 
+                  <b>Language:</b> C++
+                </p>
+              </p>
+            </div>
+            <div class="resume-item" style="padding-bottom: 5px;">
+              <p>
+                <b><a href="https://github.com/Ahsanul-Ameen/Network-Chess-using-JavaFX">Network Chess</a>,</b> 2018
+                <p style="font-size: 14px; margin-top: -10px; text-align: justify;">
+                  Developed a two-player chess game supporting both offline and online (client-server) play using socket programming.  
+                  <br>
+                  Implemented GUI for board and server using JavaFX, applying strong OOP principles.
+                </p>
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </section>
+    <!-- /Projects Section -->
+
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="resume section" style="padding-left: 20px; padding-right: 20px;">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Achievements</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" style="margin-top: -40px; ">
+
+        <div class="row">
+
+          <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="resume-item" style="padding-bottom: 5px;">
+              <p>
+                <b>Impact Program – Silver Award , IQVIA (2025)</b>
+                <p style="font-size: 14px; margin-top: -10px;">
+                  Recognizing the immense contribution to designing and developing the Agent Studio platform and NBA agent-based offerings.
+                </p>
+              </p>
+            </div>
+            <div class="resume-item" style="padding-bottom: 5px;">
+              <p>
+                <b>Impact Program – Platinum Award , IQVIA (2023)</b>
+                <p style="font-size: 14px; margin-top: -10px;">
+                  Highest level award of IQVIA Impact Program (out of six), recognizing contributions to the 
+                  <a href="https://www.iqvia.com/solutions/technologies/performance-management-and-insights/orchestrated-analytics/next-best">Next Best Actions</a> team. Important contributions towards building the Dhaka team, delivering NBA translation stories, and improving revenue opportunities across regions.
+                </p>
+              </p>
+            </div>
+            <div class="resume-item" style="padding-bottom: 5px;">
+              <p>
+                <b>SWC Professional Level Programmer, SAMSUNG (2022)</b>
+                <p style="font-size: 14px; margin-top: -10px;">
+                  Awarded internally by Samsung R&D Institute Bangladesh in recognition of achieving Professional Level in the ‘SWC Profession Test'.
+                </p>
+              </p>
+            </div>
+            <div class="resume-item" style="padding-bottom: 5px;">
+              <p>
+                <b><a href="https://site.ieee.org/bangladesh-cs/ss2021/">10th Best Paper Award – IEEE CS BDC Summer Symposium (2021)</a></b>
+                <p style="font-size: 14px; margin-top: -10px;">
+                  heme <a href="https://site.ieee.org/bangladesh-cs/files/2021/06/Final_Schedule-of-IEEEBDC_Summer_Symposium_4-5_Jun_2021_with_Session_Chair.pdf">(PID-74)</a> | Track 4: 5G Internet and Security.
+                </p>
+              </p>
+            </div>
+            <div class="resume-item" style="padding-bottom: 5px;">
+              <p>
+                <b><a href="https://codeforces.com/profile/ahsanul_ameen">Specialist at Codeforces</a></b>
+                <p style="font-size: 14px; margin-top: -10px;">
+                  Solved <b>600+ problems</b> in the <b>Codeforces online judge</b> and <b>1500+ problems</b> overall considering various platforms like <b>HackerRank, Leetcode.</b>
+                </p>
+              </p>
+            </div>
+            <div class="resume-item" style="padding-bottom: 5px;">
+              <p>
+                <b>Government Scholarship, Bangladesh (2016-2022)</b>
+                <p style="font-size: 14px; margin-top: -10px;">
+                  For outstanding performance in the Higher Secondary School Certificate Examination.
+                </p>
+              </p>
+            </div>
+            <div class="resume-item" style="padding-bottom: 5px;">
+              <p>
+                <b>Government Scholarship, Bangladesh (2014-2016)</b>
+                <p style="font-size: 14px; margin-top: -10px;">
+                  For outstanding performance in Secondary School Certificate Examination.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </section>
+    <!-- /Achievements Section -->
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="resume section" style="padding-left: 20px; padding-right: 20px;">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Certifications</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" style="margin-top: -40px; ">
+
+        <div class="row">
+
+          <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="resume-item" style="padding-bottom: 5px;">
+              <p>
+                <b><a href="https://www.educative.io/verify-certificate/8XvjopXM4rxFQX1BjqDz3GTEwmjZwn50VIg">Build ETL Pipeline in GCP: Load GCS Data to BigQuery via Dataflow</a></b>
+                <p style="font-size: 14px; margin-top: -10px;">
+                  Learned to create an ETL pipeline using GCP, extracting the data from GCS, cleaning and transforming it using Apache Beam and Dataflow, and finally loading it to BigQuery.
+              </p>
+            </div>
+            <div class="resume-item" style="padding-bottom: 5px;">
+              <p>
+                <b><a href="https://training.datasociety.com/c/fiYmbs9JRwGX47TduhPOdQ">Introduction to AI Agents IQVIA</a></b>
+                <p style="font-size: 14px; margin-top: -10px;">
+                  Understanding AI Agents and their types.
+                </p>
+              </p>
+            </div>
+            <div class="resume-item" style="padding-bottom: 5px;">
+              <p>
+                <b><a href="https://training.datasociety.com/c/97IgmR2cSgWf5G_ao3CwaA">Designing and Implementing AI Agents</a></b>
+                <p style="font-size: 14px; margin-top: -10px;">
+                  Various AI agents and their reasoning cycle: ReAct, MRKL, and HITL.
+                </p>
+              </p>
+            </div>
+            <div class="resume-item" style="padding-bottom: 5px;">
+              <p>
+                <b><a href="https://training.datasociety.com/c/LQ4_rOF4QZyRv2_sqxGdEw">Building AI Agents Using Langflow</a></b>
+                <p style="font-size: 14px; margin-top: -10px;">
+                  Prototyped a ReAct agent using Langflow, using Azure OpenAI models, added web search, vector DB, Knowledge Base, RAG.
+                </p>
+              </p>
+            </div>
+            <div class="resume-item" style="padding-bottom: 5px;">
+              <p>
+                <b><a href="https://www.udemy.com/certificate/UC-36607fa3-0d6d-4f19-824f-b295bd8e67cf/">Introduction to Agile - Scrum and Kanban</a></b>
+                <p style="font-size: 14px; margin-top: -10px;">
+                  Adopt the Agile mindset, discover Scrum and its development cycle, Kanban.
+                </p>
+              </p>
+            </div>
+            <div class="resume-item" style="padding-bottom: 5px;">
+              <p>
+                <b><a href="https://www.udemy.com/certificate/UC-3a9645c4-2f7a-421a-89f5-b38193a8fbf2/">REST API vs GraphQL vs gRPC - The Complete Guide</a></b>
+                <p style="font-size: 14px; margin-top: -10px;">
+                  Learn the three most popular Web APIs in the industry and how to choose the right one while knowing the advanced concepts and demonstrations, pros and cons, and utilizing a decision tree.
+                </p>
+              </p>
+            </div>
+            <div class="resume-item" style="padding-bottom: 5px;">
+              <p>
+                <b><a href="https://www.udemy.com/certificate/UC-8479478a-afa0-4403-857a-ec705a55bf0e/">Software Architecture: REST API Design - The Complete Guide</a></b>
+                <p style="font-size: 14px; margin-top: -10px;">
+                  Best practices of RESTful API design, correct use of HTTP Verbs, URL structure, and response codes, Authentication \& Authorization capabilities, improving performance and reducing latency.
+              </p>
+            </div>
+            <div class="resume-item" style="padding-bottom: 5px;">
+              <p>
+                <b><a href="https://www.udemy.com/certificate/UC-4b6bf870-5bf0-4060-b787-b79ebab26fc5/">Microservices Architecture - The Complete Guide</a></b>
+                <p style="font-size: 14px; margin-top: -10px;">
+                  The 9 attributes of Microservices, its architectural process.
+              </p>
+            </div>
+            <div class="resume-item" style="padding-bottom: 5px;">
+              <p>
+                <b><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/7QMTGZCTMDU8">Deep Learning Specialization</a></b>
+                <p style="font-size: 14px; margin-top: -10px;">
+                  Built neural network architectures such as Convolutional Neural Networks, Recurrent Neural Networks, LSTMs, Transformers, and learned how to make them better with strategies such as Dropout, BatchNorm, and
+                  Xavier/He initialization. Learned their industry applications using Python and TensorFlow, and tackled real-world cases such as speech recognition, music synthesis, chatbots, machine translation, natural language processing, and more.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </section>
+    <!-- /Certifications Section -->
+
+    <!-- Career and Academics Section -->
+    <!-- /Career and Academics Section -->
+    
+       
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section" style="padding-left:20px !important; padding-right:20px;">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+      </div><!-- End Section Title -->
+    
+      <div class="container" data-aos="fade-up" data-aos-delay="100" style="margin-top: -40px; ">
+        <div class="row align-items-start">
+          <!-- Left Column -->
+          <div class="col-md-4">
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>Mohammadpur, Dhaka, Bangladesh</p>
+                </div>
+              </div><!-- End Info Item -->
+    
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email</h3>
+                  <p>ahsanulsabit7@gmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+    
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="800">
+                <i class="bi bi-clock-history flex-shrink-0"></i>
+                <div>
+                  <h3>Time Zone</h3>
+                  <p>GMT+6 (Bangladesh Time)</p>
+                </div>
+              </div><!-- End Info Item -->
+            </div><!-- End Info Wrap -->
+          </div>
+    
+          <!-- Right Column: Google Map -->
+          <div class="col-md-8">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.197153356981!2d90.34804947507024!3d23.77361239420312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c704c4c37bbf%3A0xe2b544bbbf46ab36!2sMohammadpur%2C%20Dhaka%201204!5e0!3m2!1sen!2sbd!4v1700000000000"
+              width="100%"
+              height="322"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>2025</span> <strong class="px-1 sitename">Ahsanul</strong> <span></span></p>
+        <div class="social-links mt-2">
+            <a href="https://www.facebook.com/AhsanulAmeenSabit" class="facebook mx-2"><i class="bi bi-facebook"></i></a>
+            <a href="https://github.com/Ahsanul-Ameen" class="github"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/ahsanulameensabit/" class="linkedin mx-2"><i class="bi bi-linkedin"></i></a>
+          </div>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://themewagon.com">ThemeWagon</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
